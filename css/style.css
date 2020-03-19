@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+
+#video{
+    position: absolute;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    margin-top: -100px;
+}*/
+
+#capa{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    margin-top: -100px;   
+}
+
+#contenedor-video{
+    background-attachment: fixed; 
+    
+}
+
+/*
+#video{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    visibility: visible;    
+}
+
+#contenedor-video{
+    margin-top: -10px; 
+    
+}*/
+
+
+
+#titulo-principal{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    color: #464241;
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: bold;  
+   
+}
+
+/* Por debajo de 400px */
+@media screen and (max-width: 1000px){
+	#titulo-plataforma{
+	font-size:38px;
+	margin-left: 30px;
+	}
+    }
+
+@media screen and (max-width: 950px){
+    #titulo-plataforma{
+    font-size:36px;
+    margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #titulo-plataforma{
+    font-size:34px;
+    margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #titulo-plataforma{
+    font-size:32px;
+    margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #titulo-plataforma{
+    font-size:30px;
+    margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #titulo-plataforma{
+    font-size:28px;
+    margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #titulo-plataforma{
+    font-size:26px;
+    margin-left: 26px;
+    }
+}
+   
+@media screen and (max-width: 650px){
+    #titulo-plataforma{
+    font-size:24px;
+    margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #titulo-plataforma{
+    font-size:22px;
+    margin-left: 26px;
+    }
+}
+
+#texto{
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 90px; 
+    padding-left: 30px;
+}
+#texto-pro{
+    font-size: 21.5px;
+    margin-top: -10px;
+}
+
+#texto-ingre{
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+#texto input{
+border-radius: 20px;
+}
+
+
+
+/*Qué es NADIR*/
+
+#queesNadir{
+    background: url(../imagenes/inf-nadir.png) no-repeat;
+    width: 1349px;
+    height: 432px;
+    color: #ffffff;
+    margin-top: 400px;
+
+}
+
+#informacio-queesnadir{
+    width: 500px;
+    padding-top: 80px;
+    padding-left: 150px;
+}
+
+
+
+#div_funcion{
+    margin-top: 200px;
+}
+
+
+/*
+#titulo-nadir{
+    font-weight: bold;
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    border-style: 3px;
+    padding-left: 30px;
+    
+}*/
+
+#inf-nadir{
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+/*Funcionamiento NADIR*/
+#funcionNadir{
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 100px;
+    
+}
+
+
+#inf-funcion-der{
+    float: right;   
+    width: 450px;
+}
+
+#texto-inf-funcion{
+    margin-top: 50px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 20px;
+    border-left-color: #3B3C3D;
+}
+
+#texto-inf-funcion1{
+    margin-top: 50px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 20px;
+    border-left-color: #3B3C3D;
+    margin-left: 230px;
+    width: 400px;
+    
+}
+#inf-funcion-izq{
+    width: 450px;
+}
+
+#div_funcion1{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+
+/*Beneficios NADIR*/
+
+#beneficiosNadir{
+    background: url(../imagenes/beneficios.png) no-repeat;
+    width: 1349px;
+    height: 726px;
+    color:#ffffff;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+#bene-izq{
+    margin-top: 50px;
+}
+
+
+#bene-der{
+    margin-top: 50px;
+    float: right;
+    margin-top: -370px;
+    margin-right: 500px;
+ 
+}
+/*Módulos NADIR*/
+
+#modulosNadir{
+    background: url(../imagenes/Modulos.png) no-repeat;
+    width: 800px;
+    height: 695px;
+    margin-left: 548px;
+  
+}
+
+#textmodulos{
+    margin-left: -400px;
+    padding-top: 150px;   
+}
+
+#imagenmodulos{
+    float: right;
+    margin-top: -300px;
+    margin-right: 100px;
+    overflow:hidden;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    
+}
+
+#btn_acceder{
+    border-radius: 20px;
+    border: 3px  #3272CB;
+    width: 150px;;
+    height: 40px;
+    color: #3272CB;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 370px;
+    
+}
+
+#imagenmodulos:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3); 
+
+}
+
+
+/*Aplicaciones NADIR*/
+#aplicacionesNadir{
+    background: url(../imagenes/fondo-aplicaciones.png) no-repeat;
+    width: 1349px;
+    height: 647px;
+    margin-top: 200px;
+    
+
+}
+
+#imagen-aplicaciones{
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+#texto-aplicaciones{
+    float: right;
+    margin-right: 150px;
+    margin-top: -650px;
+    width: 500px;
+}
+
+
+#texto-aplicaciones p{
+    color: #3B3C3D;
+    border-top-style: solid;
+    border-top-width: 1px;
+   
+    
+}
+
+#texto-aplicaciones h4{
+    font-weight: bold;
+    margin-top: 40px;
+}

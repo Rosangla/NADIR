@@ -1,0 +1,366 @@
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;  
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}*/
+.dispositivos{
+    background: url(../img/Nadir\ aplicaciones.png) no-repeat;
+    height: 727px;
+    width: 1349px;
+   
+}
+
+.dispositivos .dispositivos_contenido{
+   padding-top: 200px;
+}
+
+.dispositivos .dispositivos_contenido .aplicaciones{
+    width: 300px;
+    margin-left: 100px;
+}
+
+ .aplicaciones .titulosDescarga {
+    color: #fff;     
+    margin-bottom: 40px;   
+}
+
+ .aplicaciones .info{
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+}
+/*Imágenes de las aplicaciones com video*/
+ .apps{  
+    margin-top: -350px;
+    float: right;
+   
+    width: 900px;
+}
+/*APP 1*/
+.apps .imagenes_apps .app1{
+    width: 210px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease
+    
+    
+}
+.apps .imagenes_apps .app1 video{
+    margin-left: -184px;
+    margin-top: 35px;
+    position: absolute;
+   
+}
+.apps .imagenes_apps .app1:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3); 
+    
+}
+
+/*APP 2*/
+
+.apps .imagenes_apps .app2{
+    width: 210px;
+    float: right;
+    margin-right: 400px;
+    margin-top: -387.5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease
+    
+}
+.apps .imagenes_apps .app2 video{
+    margin-left: -184px;
+    margin-top: 35px;
+    position: absolute;
+   
+}
+.apps .imagenes_apps .app2:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3); 
+}
+/*APP 3*/
+.apps .imagenes_apps .app3{
+    width: 210px;
+    float: right;
+    margin-top: -387.5px;
+    margin-right: 100px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease
+}
+.apps .imagenes_apps .app3 video{
+    margin-left: -184px;
+    margin-top: 35px;
+    position: absolute;
+   
+}
+.apps .imagenes_apps .app3:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3); 
+}
+
+/*Descargas*/
+.apps .imagenes_apps .descargas{
+    margin-left: -30px;
+}
+
+/*
+ .apps img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+ .apps img:hover{
+    width: 300px;
+    margin-left: -20px;
+
+}
+
+
+ .dispositivos .video-dispositivo{
+    
+    margin-left: 621px;
+}*/
+
+ /* .main .dispositivos .video-dispositivo video{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.main .dispositivos .video-dispositivo video:hover{
+    width: 275px;
+    margin-left: -20px;
+
+} 
+
+ .dispositivos .descargas{
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}*/
+
+/* ubicacion y contacto*/
+.main{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main .ubi-cont{
+    margin-left: 150px;
+    
+    width: 400px;   
+}
+
+.main .ubi-cont .redes{
+    margin-bottom: 10px;
+
+}
+
+.main .ubi-cont .direccion{
+    color: #3B3C3D;
+    border-bottom-style: solid;
+    border-bottom-color: #cecece;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.main .ubi-cont .mensaje{
+   
+    margin-left: 50px;
+  
+}
+
+
+.contacto{
+    padding: 60px 0;
+    float: right;
+    margin-top: -570px;
+    width: 500px;
+    margin-right: 150px;
+    
+
+}
+
+
+ .contacto .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .contacto .formulario input[type="text"],
+ .contacto .formulario input[type="email"],
+ .contacto .formulario input[type="tel"],
+ .contacto .formulario input[type="asunto"],
+ .contacto .formulario textarea {
+    border:2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 26px;
+    font-size: 15px;
+    color:#3B3C3D;
+    background:  #E7E3E2;
+   
+}
+
+ .contacto .formulario input[type="text"],
+ .contacto .formulario input[type="tel"]{
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario input[type="email"]{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario input[type="asunto"]{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+ .contacto .formulario textarea {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+ .contacto .formulario .boton{
+
+    font-size: 15px;
+    background: #202792 ;
+    margin: auto;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 20px 197px;
+    cursor: pointer;
+
+}
+
+/* mapa*/
+
+#map{
+    width: 100%;
+    height: 500px;
+  
+    }
+
+/* footer */
+
+footer{
+    background: url('../img/fondoEstilo.png') no-repeat;
+    height: 300px;
+    width: 1349px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+footer .footer-contacto{
+    margin-left: 100px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+footer .footer-menu li{
+    list-style: none;
+}
+
+footer .footer-menu li a{ 
+    color: #ffffff;
+    font-size: 15px;   
+}
+
+/*footer dirección*/
+footer .footer-direccion{
+    float: right;
+    margin-top: -227px;
+    width: 300px;
+    margin-right: 750px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .copy{ 
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 450px;
+    color: #fff;
+}
+/*
+footer .titulo{
+
+    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+
+footer .direccion{
+    padding: 20px 0;
+    color: #fff;
+    margin-right: 800px;
+   
+}
+
+footer .direccion .calle{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+footer .enlaces {
+    color: #fff;
+    font-size: 10px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-top: -175px;
+ 
+   
+
+}
+
+footer .copy{ 
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 350px;
+    color: #fff;
+}
+*/

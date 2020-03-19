@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium.scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NADIR</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+       <!--==========================
+      Header-menu
+    ============================-->
+    <header >
+        <nav id="menu" class="navbar fixed-top navbar-expand-lg navbar-light navbar-toggleable-sm" style=" background-color:#ffffff;">
+                
+                <a class="navbar-brand mt-4 ml-5 " href="index.html">
+                    <img id="imagen-logo" src="imagenes/logo-principal.png" alt="Logo Nadir" class="img-responsive d-inline-block align-top" >
+                </a>
+                <button class="navbar-toggler mt-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-4 font-weight-bold mr-5" id="navbarNav" style=" font-size: 20px;">
+                    <div class=" navbar-nav  ml-auto text-center">
+                        <a class="nav-item nav-link active" style="color:#464241;" href="#contenedor-video">Inicio</a>
+                        <a class="nav-item nav-link ml-3" style="color:#464241;"  href="#queesNadir">¿Qué es Nadir?</a>
+                        <a class="nav-item nav-link ml-3" style="color:#464241;" href="#beneficiosNadir">Beneficios</a>
+                        <a class="nav-item nav-link ml-3" style="color:#464241;" href="#modulosNadir">Módulos</a>
+                        <a class="nav-item nav-link ml-3" style="color:#464241;" href="#contacto-Nadir">Contactos</a>
+                    </div>
+                </div>
+        </nav>
+    </header> <!--===Header-menu-finish===-->
+
+         <!--==========================
+                  Contenedor
+          ============================-->
+
+    <div class="contenedor" >
+
+         <!--==========================
+                 video
+          ============================-->
+        <div id="contenedor-video">
+            <video autoplay loop style="position: absolute; background-size: cover; height: auto; width: 100%; z-index: -1; margin-top: -100px;" >
+                    <source src="video/videoPrincipal.mp4" type="video/mp4">         
+            </video>
+
+            <div id="capa" >
+                <img src="imagenes/capa-header2.png" width="100%">
+                
+            </div> 
+            
+                <div  id="titulo-principal"> 
+                    <h1 id="titulo-plataforma">Plataforma para la <br> Trazabilidad de <br> Productos pesqueros</h1>
+                
+                 </div>
+             <div id="bloque-rastrear">
+                <img src="imagenes/Track.png" alt="Rastrear-Porducto" width="450px" style="position: absolute; z-index:1;">
+                
+                <div  id="texto" style="position:absolute; z-index:5; border-left-style: solid; border-left-color:#ffffff; border-left-width: 5px;">
+                    <h1>RASTREA</h1>
+                    <P id="texto-pro" >TU PRODUCTO</P>
+                    <p id="texto-ingre">Ingrese el código de su producto <br> pesquero o trate un <strong>código de ejemplo</strong>.</p>
+                    <input type="text" name="ingresa-codigo" id="campo-codigo">
+                    <img src="imagenes/lupa-buscar.png" alt="lupa buscar"  style="margin-left: 10px;">
+                </div>
+            </div>   
+
+       </div>
+<!--
+            <div class="col-md-12"  >
+                <img class="img-responsive" src="imagenes/capa-header2.png" width="100%" height="100%">
+            </div>
+        </div>
+-->
+       
+
+        <!--==========================
+                 ¿Qué es NADIR?
+          ============================-->
+
+        <div id="queesNadir" >
+            <div id="informacio-queesnadir">
+                <div id="titulo-nadir">
+                    <h1 class="scrollflow -pop" style="border-left-style: solid; border-left-width: 5px; border-left-color: #ffffff; padding-left: 20px; font-weight: bold;">¿QUÉ ES NADIR?</h1>
+                </div>
+                <div class="scrollflow -slide-top -opacity" id="inf-nadir">
+                    Plataforma integral para gestionar las actividades operativas de manera eficiente, 
+                    cumplir con las recomendaciones internacionales y acceder a mercados de alto valor.
+                </div>
+            </div>
+        </div>
+
+        <!--==========================
+            Funcionamiento Nadir
+          ============================-->
+
+
+        <div id="funcionNadir">
+
+            <!--Paso 1-->
+            <div id="div_funcion"> 
+                <img class="scrollflow -slide-right -opacity" src="imagenes/RegistroPesca.png" width="280px">
+                
+                <div  id="inf-funcion-der">
+                    <h1 class="scrollflow -pop" style="color: #3272CB; border-left-style: solid; border-left-width: 5px; border-left-color: #3272CB; padding-left: 20px; font-weight: bold;">¿CÓMO FUNCIONA?</h1>
+                    <div class="scrollflow -slide-left -opacity" id="texto-inf-funcion">
+                        <h3 style="font-weight: bold;">REGISTRO DE PESCA</h3>
+                        <P style="font-size: 20px; color: #3B3C3D;">Módulo donde se registra información del viaje de pesca como lo es, zona de pesca, fecha de pesca,
+                             artes de pesca, así como la especie y la cantidad pescada.
+                        </P>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <!--Paso 2-->
+            <div id="div_funcion">
+               
+                <div class="scrollflow -slide-top -opacity" id="inf-funcion-izq">
+                    <div id="texto-inf-funcion">
+                        <h3 style="font-weight: bold;">REGISTRO DE COMPRAS</h3>
+                        <P style="font-size: 20px; color: #3B3C3D;">En este módulo se registran las compras de productos pesqueros 
+                            realizadas a proveedores, donde se lleva un registro de la cartera de cada uno de ellos.
+                        </P>
+                    </div>    
+                </div>
+                <img class="scrollflow -slide-bottom -opacity" style="float: right; margin-top: -260px;" src="imagenes/RegistroCompras.png" width="280px">
+                
+            </div>
+
+            <!--Paso 3-->
+            <div id="div_funcion">
+                <img class="scrollflow -slide-right -opacity" src="imagenes/GestionAlmacen.png" width="280px">
+                <div class="scrollflow -slide-left -opacity" id="inf-funcion-der">
+                       <div id="texto-inf-funcion">
+                            <h3 style="font-weight: bold;">GESTIÓN DE ALMACÉN</h3>
+                            <P style="font-size: 20px; color: #3B3C3D;">Registro de entradas y salidas, 
+                                así como el control del inventario de cada almacén.
+                            </P>
+                        </div>
+                        
+                </div>
+                
+                
+            </div>
+
+            <!--Paso 4-->
+            <div id="div_funcion">
+                    <div class="scrollflow -slide-top -opacity" id="inf-funcion-izq">
+                        <div id="texto-inf-funcion">
+                            <h3 style="font-weight: bold;">MÓDULO DE PROCESO</h3>
+                            <P style="font-size: 20px; color: #3B3C3D;">Registro de procesamientos realizados en la planta,
+                                tales como fileteo, enlatado, encajonado. 
+                            </P>
+                        </div>    
+                    </div>
+                <img class="scrollflow -slide-bottom -opacity" style="float: right; margin-top: -260px;" src="imagenes/Proceso.png" width="280px">
+                
+            </div>
+
+            <!--Paso 5-->
+            <div id="div_funcion">
+                <img class="scrollflow -slide-right -opacity" src="imagenes/Exportacion.png" width="280px">
+                <div class="scrollflow -slide-left -opacity" id="inf-funcion-der">
+                       <div id="texto-inf-funcion">
+                            <h3 style="font-weight: bold;">EXPORTACIÓN</h3>
+                            <P style="font-size: 20px; color: #3B3C3D;">En este módulo se captura información concerniente a la exportación ya sea por aire, mar o tierra, 
+                                donde además se generan automáticamente los formatos SIMP o MMPA según corresponda.
+                            </P>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Paso 6-->
+        <div id="div_funcion1">
+            <div class="scrollflow -slide-top -opacity" id="inf-funcion-izq">
+                <div id="texto-inf-funcion1">
+                    <h3 style="font-weight: bold;">REPORTE DE TRAZABILIDAD</h3>
+                    <P style="font-size: 20px; color: #3B3C3D;">Este módulo permite visualizar por medio de un código la información de trazabilidad del producto pesquero,
+                         desde la zona de pesca, el arte de pesca, la embarcación, la especie, y los puntos por donde se trasladó dicho producto, congeladoras y almacenes.
+                    </P>
+                </div>    
+            </div>
+        <img class="scrollflow -slide-bottom -opacity" style="float: right; margin-top: -270px; margin-right: 230px;" src="imagenes/Trazabilidad.png" width="280px">
+        
+    </div>
+       
+        <!--==========================
+            Beneficios Nadir
+          ============================-->
+
+        <div id="beneficiosNadir">
+            <h1 class="scrollflow -pop" style="border-left-style: solid; border-left-width: 5px; border-left-color: #ffffff; padding-left: 20px; font-weight: bold;">BENEFICIOS</h1>
+            <div id="texto-bene">
+                <div id="bene-izq">
+                    
+                        <img style="margin-bottom: 20px;" src="imagenes/confianza.png" alt="confianza"> <br>
+                        <img style="margin-bottom: 20px;" src="imagenes/mercadosvalor.png" alt="mercados de valor"> <br>
+                        <img style="margin-bottom: 20px;" src="imagenes/pescailegal.png" alt="pesca ilegal"> <br>
+                        <img src="imagenes/seguridadalimen.png" alt="seguridad alimentaria">
+                     
+                </div>
+                <div id="bene-der">
+                    <img style="margin-bottom: 20px;" src="imagenes/procesosope.png" alt="procesos operativos"><br>
+                    <img src="imagenes/inocuidad.png" alt="inocuidad">
+                </div>
+
+            </div>
+
+        </div>
+         <!--==========================
+            Módulos NADIR
+          ============================-->
+
+
+
+        <div id="modulosNadir">
+            <div id="textmodulos">
+                <h1 class="scrollflow -pop" style=" color: #3272CB; border-left-style: solid; border-left-width: 5px; border-left-color: #3272CB; padding-left: 20px; font-weight: bold;">MÓDULOS</h1>
+                <ul type="circle" style="color: #3B3C3D; margin-top: 30px; margin-left: 20px;">
+                    <li style="margin-bottom:5px;">Productor Pesquero</li>
+                    <li style="margin-bottom:5px;">Centro de Acopio</li>
+                    <li style="margin-bottom:5px;">Planta de Proceso</li>
+                    <li style="margin-bottom:5px;">Exportador</li>
+                    <li style="margin-bottom:5px;">Importador</li>
+                    <li style="margin-bottom:5px;">Control de Calidad</li>
+                    <li>Reporte de Trazabilidad</li>
+                </ul>
+            </div>
+            <div id="imagenmodulos">
+                    <video autoplay muted loop style="width: 460px; height: 260px; margin-left: 20px; margin-top: 4px; position: absolute;">
+                            <source src="video/video-plataforma.mp4" type="video/mp4">
+                         
+                    </video>
+
+                    <img style="position: relative"  src="imagenes/Computadora.png" alt="computadora"> <br>        
+            </div>
+            <input id="btn_acceder" type="button" value="ACCEDER" onclick="location='http://nadir.com.mx/producto/'">
+
+        </div>
+
+        <!--==========================
+            Aplicaciones móviles
+          ============================-->
+       
+          <div id="aplicacionesNadir" >
+              <div class="scrollflow -slide-top -opacity" id="imagen-aplicaciones">
+                  <img src="imagenes/Aplicaciones.png" alt="Aplicaciones móviles">
+              </div>
+              <div id="texto-aplicaciones">
+                <h1 class="scrollflow -pop" style=" color: #3272CB; border-left-style: solid; border-left-width: 5px; border-left-color: #3272CB; padding-left: 20px; font-weight: bold;">APLICACIONES</h1>
+                <h4>Nadir Traceability</h4>
+                <p class="scrollflow -slide-left -opacity">Permite la consulta interactiva de la información de Trazabilidad de los
+                    productos de manera fácil e intuitiva. <br>
+                    Disponible para dispositivos iOS y Android.
+                </p>
+
+                <h4>Nadir Catch</h4>
+                <p class="scrollflow -slide-left -opacity">Permite el registro de información de los viajes de pesca para dar
+                    inicio a la trazabilidad. <br>
+                    Disponible para dispositivos Android.
+                </p>
+
+                <h4>Nadir Smart Buy</h4>
+                <p class="scrollflow -slide-left -opacity"s>Facilita la operación y el registro de los procesos de compra/venta
+                    de productos pesqueros, ya sea desde un punto fijo o móvil<br>
+                    Disponible para dispositivos Android.
+                </p>
+              </div>
+          </div>
+
+ <!--==========================
+            ASegunda parte
+          ============================-->
+
+          <!--==========================
+            Descarga de Aplicaciones
+          ============================-->
+          <section class="dispositivos">
+              <div class="dispositivos_contenido">
+           
+                    <div class="aplicaciones">
+                        <h1 class="scrollflow -pop" class="titulosDescarga" style="color: #ffffff; border-left-style: solid; border-left-width: 5px; border-left-color: #ffffff; padding-left: 20px; font-weight: bold;">DESCARGA LAS APPS</h1>
+                        <P class="info">
+                            Encuentra nuestras aplicaciones
+                            <strong> Nadir Traceability, Nadir Catch y Nadir Smart Buy </strong> en las tiendas de dispositivos correspondientes.
+                        </P>
+                    </div>
+                    <div class="apps">
+                        <div class="imagenes_apps">
+                            <div id="app1" class="app1">
+                               <img src="img/app-mobile.png" alt="" width="200px">
+                               <video loop id="video-traza" muted="" class="video-mobile" width="170px">
+                                    <source src="video/traceability.mp4" type="video/mp4">
+                                    <!--<source src="video/aplicacion.webm" type="video/webm">-->
+                                </video>
+                                
+                            </div>
+
+                            <div id="app2" class="app2">
+                                <img  src="img/app-mobile.png" alt="" width="200px">
+                                <video loop id="video-smart"  muted="" class="video-mobile" width="170px">
+                                        <source src="video/smart-buy.mp4" type="video/mp4">
+                                       <!-- <source src="video/aplicacion.webm" type="video/webm">-->
+                                </video>
+                                     
+                            </div>
+
+                            <div id="app3" class="app3">
+                                <img  src="img/app-mobile.png" alt="" width="200px">
+                                <video loop id="video-catch" muted="" class="video-mobile" width="170px">
+                                        <source src="video/catch.mp4" type="video/mp4">
+                                        <!--<source src="video/aplicacion.webm" type="video/webm">-->
+                                </video>
+                                     
+                            </div>
+
+                            <div class="descargas">
+                                    <img src="img/Google play.png" alt="" width="100px" style="margin-left: 30px">
+                                    <img src="img/App store.png" alt="" width="100px" style="margin-left: 10px;">
+                                    <img style="margin-left:125px;" src="img/Google play.png" alt="" width="100px" style="margin-left: 110px;">
+                                    <img style="margin-left: 200px;" src="img/Google play.png" alt="" width="100px" style="margin-left: 170px;">
+            
+                            </div>
+                            
+
+                            <!--
+                            <div class="app2">
+                                <video autoplay="" loop="" muted="" class="video-mobile" width="180px">
+                                        <source src="video/aplicacion.mp4" type="video/mp4">
+                                        <source src="video/aplicacion.webm" type="video/webm">
+                                </video>
+                                <img src="img/app-mobile.png" alt="" width="200px">
+                                    
+                            </div>
+                            <div class="app3">
+                                <video autoplay="" loop="" muted="" class="video-mobile" width="180px">
+                                        <source src="video/aplicacion.mp4" type="video/mp4">
+                                        <source src="video/aplicacion.webm" type="video/webm">
+                                </video>
+                                <img src="img/app-mobile.png" alt="" width="200px">
+                                    
+                            </div>
+                            -->
+                            
+                        </div>
+
+                    
+                            <!--
+                         <div class="descargas">
+                                <img src="img/Google play.png" alt="" width="100px" style="margin-left: 30px">
+                                <img src="img/App store.png" alt="" width="100px" style="margin-left: 10px;">
+                                <img src="img/Google play.png" alt="" width="100px" style="margin-left: 110px;">
+                                <img src="img/Google play.png" alt="" width="100px" style="margin-left: 170px;">
+        
+                        </div>-->
+
+                    </div>
+
+                    
+                </div>
+
+        </section>
+
+        <section class="mapa">
+                <div id="map"></div>
+        </section>
+      <!--  <div id=”map”></div> -->
+          
+    <section  class="main">        
+        <section class="ubi-cont">
+            <div class="redes">
+                <img src="img/Twitter.png" alt="" width="40px">
+                <img src="img/Facebook.png" alt="" width="40px">
+            </div>
+
+            <div class="direccion">
+                <h3 class="titutlo" style="margin-bottom: 10px;">Plenumsoft Marina</h3>
+                <p class="calle">Av. Principal, Industrias No Contaminantes 13613, Hacienda Sodzil Nte., 97110 Mérida, Yuc.
+                </p>
+                <p class="telefono" style="margin-bottom: 10px;">
+                    <strong>Telefono: </strong>+52 (999) 322 1981 </p>
+                <p class="correo" style="margin-bottom: 10px;">
+                    <strong>Email: </strong> info@plenumsoftmarina.com </p>
+            </div>
+            
+            <div class="mensaje">
+                <img src="img/Mensaje.png" alt="" width="300px" >
+            </div>      
+        </section>
+
+        <section id="contacto-Nadir" class="contacto">
+            <div class="contenedor">
+                <h1 class="scrollflow -pop" style=" color: #3272CB; border-left-style: solid; border-left-width: 5px; border-left-color: #3272CB; padding-left: 20px; font-weight: bold; margin-bottom: 30px;">CONTACTO</h1>
+                <form class="formulario" action="enviar.php" method="POST">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="tel" placeholder="Telefono" name="telefono" pattern="[0-9]{9}" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <input type="asunto" placeholder="Asunto" name="asunto" required>
+                    <textarea name="mensaje" placeholder="Mensaje: "></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </section>
+
+         
+    </div>
+
+    <footer>
+        <div class="footer-contacto">
+            <p style="font-size: 20px; font-weight: bold;">Enlaces</p>
+            
+                <ul class="footer-menu">
+                    <li><a href="#contenedor-video">Inicio</a></li>
+                    <li><a href="#queesNadir">¿Qué es Nadir?</a></li>
+                    <li><a href="#beneficiosNadir">Beneficios</a></li>
+                    <li><a href="#modulosNadir">Módulos</a></li>
+                    <li><a href="#aplicacionesNadir">Aplicaciones</a></li>
+                    <li><a href="#contacto-Nadir">Contacto</a></li>
+                </ul>
+        </div>
+
+        <div class="footer-direccion">
+            <p style="font-size: 20px; font-weight: bold;"> Contacto</p>
+            <p style="font-size: 15px; font-weight: bold; padding-top: 10px; padding-bottom: 10px;"> Plenumsoft Marina</p>
+            <p style="font-size: 15px;">Av. Principal, Industrias No Contaminantes 13613, Hacienda Sodzil Nte., 97110 Mérida, Yuc.
+            </p>
+            
+        </div>
+
+        <div class="copy">
+            <p style="padding-top: 20px;">Plenumsoft Marina ® 2020. Todos los derechos reservados. Términos y Condiciones. Aviso de Privacidad.</p>
+        </div>
+
+        <div>
+
+            <!--<video autoplay loop>
+                <source  src="video/videoPrincipal.mp4" type="video/mp4" />
+                <source  src="video/videoPrincipal.webm" type="video/webm" />
+                <source  src="video/videoPrincipal.ogg" type="video/ogg" />
+            </video> 
+        </div>-->
+       <!-- <div class="contenedor">
+            <h4 class="titulo">Contacto</h4>
+            <div class="direccion">
+                <h4>Plenumsoft Marina</h4>
+                <p class="calle">Centro de Innovación Heuristic. Tablaje Catastral 34338, Km. 5.5 Carretera Sierra Papacal - Chuburná Puerto.,
+                    Sierra Papacal, 97302 Mérida, Yuc.
+                </p>
+            </div>
+
+            <div class="enlaces">
+                <h4 class="titulo" >Enlaces </h4>
+                <p>ejemplo1</p>
+                <p>ejemplo1</p>
+                <p>ejemplo1</p>
+            </div>
+
+            <div class="copy">
+                <h6>Plenumsoft Marina ® 2017. Todos los derechos reservados</h6>
+            </div>
+
+        </div>-->
+    </footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/desplazamiento.scroll.js"></script>
+<script src="js/eskju.jquery.scrollflow.js"></script>
+<script src="js/eskju.jquery.scrollflow.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/videosApp.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1b9vnZYeEOqn_MM76mU7Hek81cj7_vZc&callback=initMap" async
+    defer></script>
+    
+</body>
+</html>

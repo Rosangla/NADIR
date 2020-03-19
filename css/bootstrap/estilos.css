@@ -1,0 +1,167 @@
+/*ESTILOS GENERALES*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.contenedor{
+	font-family: Calibri;
+}
+
+/*ENCABEZADO*/
+.encabezado .encabezado-superior{
+	overflow: hidden;
+	padding-bottom: 120px;
+}
+
+.encabezado .encabezado-superior .logo{
+	float: left;
+	display: inline-block;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.encabezado .encabezado-superior .menu-principal{
+  padding-top: 50px;
+  float: right;
+}
+
+.encabezado .encabezado-superior .menu-principal .menu{
+  display: inline-block;
+   padding-left: 50px;
+}
+
+.encabezado .encabezado-superior .menu-principal .boton-login{
+  	float: right;
+}
+.encabezado .encabezado-superior .menu-principal ul{
+	list-style: none;
+}
+
+.encabezado .encabezado-superior .menu-principal ul li{
+	float: left;
+}
+
+.encabezado .encabezado-superior .menu-principal ul li a{
+	text-decoration: none;
+	color: #080E86;
+	padding: 10px 15px;
+	display: inline-block;
+	font-weight: bold;
+	font-family: Calibri;
+	letter-spacing: 1px;
+}
+.encabezado .encabezado-superior .menu-principal ul li a:hover{
+	color: #8b919c;
+}
+
+.encabezado .encabezado-superior .menu-principal .boton-login{
+	padding-right: 100px;
+}
+
+.encabezado .encabezado-superior .menu-principal .boton-login .boton{
+text-decoration: none;
+padding: 10px 25px;
+font-weight: 600;
+color:#ffff;
+background-color: #70c7db;
+border-radius: 6px;
+font-family: Calibri;
+letter-spacing: 1px;
+margin-left: 10px;
+}
+
+.encabezado .encabezado-medio .contenedor{
+font-family: sans-serif;
+letter-spacing: 1px;
+padding-left: 70px;
+padding-bottom: 50px;
+
+}
+
+.encabezado .encabezado-medio .contenedor h1{
+font-size: 60px;	
+}
+
+.encabezado .encabezado-medio .contenedor p{
+font-size: 20px;
+letter-spacing: 2px;
+color: #666666;
+	
+}
+ #subtitulo-1{
+padding-top: 20px;
+ }
+
+/*@font-face {
+	font-family: "BentonSans-Bold";
+	src: url("fonts/BentonSans-Bold.otf");
+}
+
+#titulo{
+	font-family: BentonSans-Bold;
+}*/
+
+
+.contenido .contenedor .contenido-1{
+text-align: center;
+padding-top: 100px;
+font-family: sans-serif;
+letter-spacing: 1px;
+
+}
+
+.contenido .contenedor .contenido-1 h1{
+	font-size: 50px;
+	
+}
+
+.contenido .contenedor .contenido-1 p{
+font-size: 20px;
+letter-spacing: 2px;
+color: #666666;
+padding-top: 40px;
+}
+
+.contenido .contenedor .contenido-2{
+text-align: center;
+padding-top: 100px;
+letter-spacing: 1px;
+}
+
+.contenido .contenedor .contenido-2 h1{
+	font-size: 50px;
+	
+}
+
+.contenido .contenedor .contenido-2 .subcontenido{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.contenido .contenedor .contenido-2 .subcontenido .subcontenido-1{
+	float: left;
+	margin-left: 80px;
+}
+
+.contenido .contenedor .contenido-2 .subcontenido .subcontenido-1 .logo-subcontenido-1 {
+	margin-bottom: 30px;
+}
+
+.contenido .contenedor .contenido-2 .subcontenido .subcontenido-1 .titulo-subcontenido-1{
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.contenido .contenedor .contenido-2 .subcontenido .subcontenido-1 .contenido-subcontenido-1{
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #666666;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
